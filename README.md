@@ -6,9 +6,9 @@
 
  Cursos e Linguagens utilizadas:
 
- - (HTML)[https://www.youtube.com/watch?v=jgQjeqGRdgA] [Curso em Vídeo]
- - CSS [Curso em Vídeo]
- - Git e Github [Curso em Vídeo]
+ - HTML [Curso em Vídeo](https://www.youtube.com/watch?v=jgQjeqGRdgA)
+ - CSS [Curso em Vídeo](https://www.youtube.com/watch?v=jgQjeqGRdgA)
+ - Git e Github [Curso em Vídeo](https://www.youtube.com/watch?v=xEKo29OWILE&list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
 
 ## 🏷️ Layout 
 
