@@ -53,6 +53,7 @@ Lista de Exercicíos:
 <a href="https://vini3h.github.io/html-css/exercicios/ex018/index.html">Executar o exercício 018[manutenção] </a>
 <br>
 <a href="https://vini3h.github.io/html-css/exercicios/ex019/seletor01.html">Executar o exercício 019 </a>
+<br>
 <a href="https://vini3h.github.io/html-css/exercicios/ex020/index.html">Executar o exercício 020[manutenção] </a>
 <br>
 <a href="https://vini3h.github.io/html-css/exercicios/ex021/index.html">Executar o exercício 021[manutenção] </a>
