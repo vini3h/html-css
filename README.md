@@ -17,6 +17,7 @@ Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 Lista de Exercicíos:
 
 <a href="https://vini3h.github.io/html-css/exercicios/ex001/index.html">Executar o exercício 001 </a>
+<br>
 <a href="https://vini3h.github.io/html-css/exercicios/ex002/index.html">Executar o exercício 002 </a>
 <a href="https://vini3h.github.io/html-css/exercicios/ex003/index.html">Executar o exercício 003 </a>
 <a href="https://vini3h.github.io/html-css/exercicios/ex004/index.html">Executar o exercício 004 </a>
