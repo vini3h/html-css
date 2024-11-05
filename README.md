@@ -76,7 +76,7 @@ Lista de Desafios:
 <br>
 <a href="https://vini3h.github.io/html-css/desafios/d007/index.html">Executar o desafio 007 </a>
 <br>
-<a href="https://vini3h.github.io/html-css/desafios/d008/index.html">Executar o desafio 008 [Manutenção] </a>
+<a href="https://vini3h.github.io/html-css/desafios/d008/index.html">Executar o desafio 008</a>
 <br>
 <a href="https://vini3h.github.io/html-css/desafios/d009/index.html">Executar o desafio 009 </a>
 <br>
