@@ -6,9 +6,11 @@
 
  Cursos e Linguagens utilizadas:
 
- - HTML [Curso em Vídeo]
+ - (HTML)[https://www.youtube.com/watch?v=jgQjeqGRdgA] [Curso em Vídeo]
  - CSS [Curso em Vídeo]
  - Git e Github [Curso em Vídeo]
+
+## 🏷️ Layout 
 
 Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 
