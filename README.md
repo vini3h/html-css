@@ -46,15 +46,15 @@ Lista de Exercicíos:
 <br>
 <a href="https://vini3h.github.io/html-css/exercicios/ex015/index.html">Executar o exercício 015 </a>
 <br>
-<a href="https://vini3h.github.io/html-css/exercicios/ex016/index.html">Executar o exercício 016[manutenção] </a>
+<a href="https://vini3h.github.io/html-css/exercicios/ex016/index.html">Executar o exercício 016 </a>
 <br>
-<a href="https://vini3h.github.io/html-css/exercicios/ex017/index.html">Executar o exercício 017[manutenção] </a>
+<a href="https://vini3h.github.io/html-css/exercicios/ex017/index.html">Executar o exercício 017 </a>
 <br>
-<a href="https://vini3h.github.io/html-css/exercicios/ex018/index.html">Executar o exercício 018[manutenção] </a>
+<a href="https://vini3h.github.io/html-css/exercicios/ex018/index.html">Executar o exercício 018 </a>
 <br>
 <a href="https://vini3h.github.io/html-css/exercicios/ex019/seletor01.html">Executar o exercício 019 </a>
 <br>
-<a href="https://vini3h.github.io/html-css/exercicios/ex020/index.html">Executar o exercício 020[manutenção] </a>
+<a href="https://vini3h.github.io/html-css/exercicios/ex020/index.html">Executar o exercício 020 </a>
 <br>
 <a href="https://vini3h.github.io/html-css/exercicios/ex021/index.html">Executar o exercício 021[manutenção] </a>
 <br>
