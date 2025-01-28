@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+        th,td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        thead,tfoot {
+            background-color: #383838;
+            color: white;
+        }
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: #383838;
+        }
+        tbody > tr:nth-child(2n-1) {
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de Tabelas Grandes</h1>
+    <!-- 
+        ANATOMIA PARA TABELAS GRANDES
+        TABLE
+            CAPTION
+            THEAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH
+     -->
+
+     <table>
+        <caption>
+            População das Unidades Federativas
+        </caption>
+        <thead>
+            <tr>
+                <th>Estado</th>
+                <th>População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td>teste1</td>
+                <td class="num">18 085 893</td>
+            </tr>
+            <tr>
+                <td>teste2</td>
+                <td class="num">18 085 893</td>
+            </tr>
+            <tr>
+                <td>teste3</td>
+                <td class="num">18 085 893</td>
+            </tr>
+            <tr>
+                <td>teste4</td>
+                <td class="num">18 085 893</td>
+            </tr>
+            <tr>
+                <td>teste5</td>
+                <td class="num">18 085 893</td>
+            </tr>
+            <tr>
+                <td>teste6</td>
+                <td class="num">18 085 893</td>
+            </tr>
+            <tr>
+                <td>teste7</td>
+                <td class="num">18 085 893</td>
+            </tr>
+            <tr>
+                <td>teste8</td>
+                <td class="num">18 085 893</td>
+            </tr>
+            <tr>
+                <td>teste9</td>
+                <td class="num">18 085 893</td>
+            </tr>
+            <tr>
+                <td>teste10</td>
+                <td class="num">18 085 893</td>
+            </tr>
+            <tr>
+                <td>teste11</td>
+                <td class="num">18 085 893</td>
+            </tr>
+            <tr>
+                <td>teste12</td>
+                <td class="num">18 085 893</td>
+            </tr>
+            <tr>
+                <td>teste13</td>
+                <td class="num">18 085 893</td>
+            </tr>
+            <tr>
+                <td>teste14</td>
+                <td class="num">18 085 893</td>
+            </tr>
+            <tr>
+                <td>teste15</td>
+                <td class="num">18 085 893</td>
+            </tr>
+            <tr>
+                <td>teste16</td>
+                <td class="num">18 085 893</td>
+            </tr>
+            <tr>
+                <td>teste17</td>
+                <td class="num">18 085 893</td>
+            </tr>
+            <tr>
+                <td>teste18</td>
+                <td class="num">18 085 893</td>
+            </tr>
+            <tr>
+                <td>teste19</td>
+                <td class="num">18 085 893</td>
+            </tr>
+            <tr>
+                <td>teste20</td>
+                <td class="num">18 085 893</td>
+            </tr>
+            <tr>
+                <td>teste21</td>
+                <td class="num">18 085 893</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total de Habitantes</th>
+                <td id="total-habitantes"></td>
+            </tr>
+        </tfoot>
+     </table>
+
+     <script>
+        // Função para calcular a soma dos valores das células com a classe 'num'
+        function calcularTotal() {
+            const elementos = document.querySelectorAll('.num'); // Seleciona todas as células com a classe 'num'
+            let total = 0;
+
+            elementos.forEach(elemento => {
+                // Remove os espaços e converte para número
+                const valor = parseInt(elemento.textContent.replace(/\s+/g, ''));
+                total += valor;
+            });
+
+            // Insere o total na célula de rodapé
+            document.getElementById('total-habitantes').textContent = total.toLocaleString('pt-BR');
+        }
+
+        // Executa a função ao carregar a página
+        calcularTotal();
+    </script>
+    
+</body>
+</html>
