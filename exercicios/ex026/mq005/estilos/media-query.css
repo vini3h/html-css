@@ -13,12 +13,12 @@ Grandes telas: acima de 1200px
 
  @media screen and (min-width: 768px) {
     
-    i#burger {
+    #burger {
         display: none;
     }
 
     nav {
-        display: block !important;
+        display: block;
     }
 
     nav > ul > li {
